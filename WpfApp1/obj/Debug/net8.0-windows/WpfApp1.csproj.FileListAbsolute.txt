@@ -1,4 +1,5 @@
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\SettingsWindow.g.cs
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\App.g.cs
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.cache
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.lref
@@ -8,11 +9,13 @@ C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.dll
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.pdb
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow.baml
+C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\SettingsWindow.baml
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.g.resources
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfoInputs.cache
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfo.cs
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.sourcelink.json
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.dll
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\refint\WpfApp1.dll
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.pdb

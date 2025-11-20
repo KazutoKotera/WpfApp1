@@ -21,9 +21,11 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void SettingsButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("ボタンがクリックされました！");
+            SettingsWindow settings = new SettingsWindow(this); // MainWindow を渡す
+            settings.Owner = this;      // ← ここで所有者を設定
+            settings.ShowDialog();      // モーダルで開く
         }
     }
 }
