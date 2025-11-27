@@ -9,7 +9,7 @@
     <StackPanel Margin="10">
         <Button Content="フルスクリーン" Click="FullScreen_Click" Margin="0,5"/>
         <Button Content="ウィンドウ表示" Click="Windowed_Click" Margin="0,5"/>
-        <Button Content="疑似フルスクリーン" Click="PseudoFullScreen_Click" Margin="0,5"/>
+        <Button Content="ウィンドウフルスクリーン" Click="PseudoFullScreen_Click" Margin="0,5"/>
         <Button Content="閉じる" Click="Close_Click" Margin="0,5"/>
     </StackPanel>
 </Window>

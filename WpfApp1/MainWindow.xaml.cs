@@ -18,14 +18,21 @@ namespace WpfApp1
     {
         public MainWindow()
         {
+            // 画面の読み込み
             InitializeComponent();
         }
 
+        // 画面設定ウィンドウを開く
         private void SettingsButton_Click(object sender, RoutedEventArgs e)
         {
             SettingsWindow settings = new SettingsWindow(this); // MainWindow を渡す
             settings.Owner = this;      // ← ここで所有者を設定
             settings.ShowDialog();      // モーダルで開く
+        }
+
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
