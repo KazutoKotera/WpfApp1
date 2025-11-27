@@ -1,5 +1,5 @@
 ﻿WpfApp1
-
+1.0.0.0
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 C:\KCG\project\ProjectPractice\WpfApp1\WpfApp1\App.xaml
 3-270888547
 
-6-1471383505
-198338916705
+8-277867936
+198-568745232
 GalleryView.xaml;MainWindow.xaml;SettingsWindow.xaml;
 
-False
+True
 
