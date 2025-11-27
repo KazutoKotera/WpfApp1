@@ -34,5 +34,21 @@ namespace WpfApp1
         {
             this.Close();
         }
+
+        private void GalleryButton_Click(object sender, RoutedEventArgs e)
+        {
+            // ホーム画面を隠す
+            HomeGrid.Visibility = Visibility.Collapsed;
+
+            // ContentArea をクリアしてギャラリー画面を追加
+            ContentArea.Children.Clear();
+            var gallery = new GalleryView();
+            gallery.BackRequested += () =>
+            {
+                ContentArea.Children.Clear();
+                HomeGrid.Visibility = Visibility.Visible; // ホーム画面を再表示
+            };
+            ContentArea.Children.Add(gallery);
+        }
     }
 }

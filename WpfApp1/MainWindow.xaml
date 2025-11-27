@@ -7,12 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="画面設定" Width="148" Height="54"
-                HorizontalAlignment="Left" VerticalAlignment="Top"
-                Click="SettingsButton_Click" Margin="66,217,0,0"/>
+        <Grid x:Name="ContentArea">
 
-        <Button Content="閉じる" Width="148" Height="54"
-                HorizontalAlignment="Left" VerticalAlignment="Top"
-                Click="CloseButton_Click" Margin="66,323,0,0"/>
+        </Grid>
+
+        <Grid x:Name="HomeGrid">
+            <Button Content="ギャラリー" Width="407" Height="87"
+                    HorizontalAlignment="Left" VerticalAlignment="Top"
+                    Click="GalleryButton_Click" Margin="66,71,0,0"/>
+
+            <Button Content="画面設定" Width="148" Height="54"
+                    HorizontalAlignment="Left" VerticalAlignment="Top"
+                    Click="SettingsButton_Click" Margin="66,217,0,0"/>
+
+            <Button Content="閉じる" Width="148" Height="54"
+                    HorizontalAlignment="Left" VerticalAlignment="Top"
+                    Click="CloseButton_Click" Margin="66,323,0,0"/>
+        </Grid>
     </Grid>
 </Window>
