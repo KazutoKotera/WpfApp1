@@ -6,6 +6,7 @@ namespace WpfApp1
 
     public partial class GalleryView : UserControl
     {
+        // 戻るボタンが押されたら通知するためのイベント
         public event Action BackRequested;
 
         public GalleryView()

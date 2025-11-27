@@ -30,19 +30,23 @@ namespace WpfApp1
             settings.ShowDialog();      // モーダルで開く
         }
 
+        // ウィンドウを閉じる
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
 
+        // ギャラリー画面を開く
         private void GalleryButton_Click(object sender, RoutedEventArgs e)
         {
             // ホーム画面を隠す
             HomeGrid.Visibility = Visibility.Collapsed;
 
-            // ContentArea をクリアしてギャラリー画面を追加
+            // ContentAreaに表示されている要素を削除
             ContentArea.Children.Clear();
+            // ギャラリー画面を表すUserControlのインスタンスを作成
             var gallery = new GalleryView();
+            // ギャラリー画面の戻るボタンが押されたときの処理
             gallery.BackRequested += () =>
             {
                 ContentArea.Children.Clear();
